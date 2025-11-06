@@ -1,0 +1,36 @@
+{
+  "id": "com.docol.gauge",
+  "name": "Gauge Velocímetro",
+  "version": "1.0.0",
+  "newInstancePrefix": "gauge",
+  "icon": "https://raw.githubusercontent.com/habeckk/gauge/main/icon.png",
+  "properties": {
+    "value": {
+      "type": "number",
+      "default": 0
+    },
+    "info": {
+      "type": "string",
+      "default": ""
+    },
+    "color": {
+      "type": "string",
+      "default": "#27ae60"
+    }
+  },
+  "methods": {},
+  "events": {},
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-demo-gauge",
+      "url": "https://raw.githubusercontent.com/habeckk/gauge/main/box.js",
+      "integrity": "sha256-139bffed783465d488027c2e5ae3e94a1ab60e82c09f01776e86da17d6de24bb"
+    },
+    {
+      "kind": "builder",
+      "tag": "com-demo-box-bps",
+      "url": "https://raw.githubusercontent.com/habeckk/gauge/main/box_bps.js"
+    }
+  ]
+}
