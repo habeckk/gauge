@@ -1,0 +1,16 @@
+{
+  "name": "com.docol.gauge",
+  "version": "1.0.0",
+  "title": "Gauge Widget",
+  "description": "Gauge para percentual de produção",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "gauge-widget",
+      "url": "https://raw.githubusercontent.com/habeckk/gauge/main/gauge.js",
+      "integrity": "sha256-phcr2WyIMpvdF8ePdRujgacfsfLC46YTPr0VX1zkIc4="
+    }
+  ],
+  "methods": {},
+  "events": {}
+}
