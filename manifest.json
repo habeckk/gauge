@@ -1,5 +1,6 @@
 {
   "id": "com.docol.gauge",
+  "name": "Gauge Velocímetro",
   "version": "1.0.0",
   "newInstancePrefix": "gauge",
   "properties": {},
